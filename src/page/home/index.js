@@ -11,7 +11,7 @@ export default () => {
     useEffect(() => {
         const Teste = async () => {
             try {
-                const response = await axios.get("https://api.github.com/users/rafaelshembek")
+                const response = await axios.get("https://api.github.com/users/your_name_github")
                 setDados(response.data)
             } catch (error) {
                 // console.log(error);

@@ -7,7 +7,7 @@ export default () => {
     const [dados, setDados] = useState([]);
 
 
-    const ApiKey = "AIzaSyDIIVGIxJo6-Qj95GbrcCeIjmINfm-GhWA";
+    const ApiKey = "YOUR KEY";
     const ApiUrl = `https://www.googleapis.com/youtube/v3/videos?key=${ApiKey}&part=snippet&chart=mostPopular&regionCode=BR`;
 
     useEffect(() => {
